@@ -144,6 +144,9 @@ button:focus {
     display: block;
 }
 
+.x-video {
+    position: absolute;
+}
 
 /*==========================
         2.HELPER
@@ -223,7 +226,7 @@ button:focus {
 }
 
 .bg-overlay {
-    background-color: rgba(0, 0, 0, 0.69);
+    background-color: rgba(0, 0, 0, 0.20);
     position: absolute;
     top: 0;
     right: 0;
