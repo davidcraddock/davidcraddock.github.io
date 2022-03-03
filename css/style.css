@@ -146,6 +146,8 @@ button:focus {
 
 .x-video {
     position: absolute;
+    right: 200px;
+    top: 20px;
 }
 
 /*==========================
@@ -666,7 +668,7 @@ button:focus {
 
 .footer {
     padding: 70px 0px;
-    background-color: #242424 !important;
+    background-color: #000 !important;
 }
 
 .footer .footer-alt p {
@@ -840,5 +842,10 @@ ul.pattern .color6 {
 @media only screen and (max-width:479px) {
     #color-switcher {
         display: none
+    }
+    .x-video {
+        position: absolute;
+        right: 125px;
+        top: 20px;
     }
 }
